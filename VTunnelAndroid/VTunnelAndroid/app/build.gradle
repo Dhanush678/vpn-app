@@ -50,6 +50,7 @@ android {
         }
     }
     ndkVersion = '21.0.6113669'
+    namespace 'tun.proxy'
 
     applicationVariants.all { variant ->
         if (variant.buildType.name.equals("release")) {
