@@ -75,7 +75,7 @@ dependencies {
     // jsoup HTML parser library @ https://jsoup.org/
     implementation "org.jsoup:jsoup:1.13.1"
     implementation "com.thefinestartist:finestwebview:1.2.7"
-    testImplementation 'junit:junit:4.12'
+    testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test:runner:1.5.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
 }
