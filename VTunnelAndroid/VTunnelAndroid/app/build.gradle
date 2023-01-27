@@ -6,7 +6,7 @@ android {
         applicationId "com.vtunnel"
         minSdkVersion 21
         targetSdkVersion 33
-        versionCode 100018
+        versionCode 100026
         versionName VERSION_NAME
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         externalNativeBuild {
