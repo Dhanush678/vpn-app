@@ -1,0 +1,57 @@
+Privacy Policy
+
+Last updated: Jan 19, 2022
+
+This document("Privacy Policy") explains the privacy rules applicable to all information collected or submitted when you access, install, or use the VPN services of VTunnelVPN.
+
+By using the services, you confirm that you have read this Privacy Policy and agree to be bound by this Privacy Policy. If you disagree with the rules of this Privacy Policy, please do not use our Services.
+
+This document is written in English. If there will be any translation on this document, the primary explanation should be based on this version in the English language.
+
+This Privacy Policy may be modified and updated at any time, at our sole discretion, for any or no reason, and without liability, as indicated below. The date of the most current wording of the Privacy Policy
+is indicated at the top of the text. We ask all users to ensure that they are familiar with the most current wording of the Privacy Policy. The amendment of the Privacy Policy may be published on this website.
+Updates of the Privacy Policy come into force as of the moment when they are published.
+
+You may not assign or transfer your rights or obligations under this Privacy Policy to any third party. 
+
+1. Overall Policy
+
+1.1 No backdoor
+Our VPN software is Opensource, and the source code is hosted on the following link: https://gitlab.com/CodingGuru1989/VTunnel
+Our binary distribution is in accordance with the published source code, with only the modification on the url string.
+So users are capable to perform the auditing process on the software, in the role of the outsider.
+
+No collection of PID(Personal idendifiable data)
+Our VPN software does not collect any of PID(Personal idendifiable data), without the approval from the users.
+
+1.2 No logs
+
+Our VPN software does not record any logs on web proxy server.
+However, due to the specific design of Our VPN software, which utilize the encrypted TLS channel. This encrypted TLS channel logs data, such as IP address from the client side, and the visited url. 
+But This encrypted TLS channel acts only as the encrypted layer, which provides none of the functionality of web proxy server.
+Logrotate for log file of TLS channel is performed on the server side.
+
+2. Law Compliance
+
+GDPR
+
+Infomation for users in the European Economic Area (EEA)
+
+The European Union's General Data Protection Regulation ("GDPR") requires that we provide notice in a specific way to our European users about their privacy rights. Please find all the necessary information below.
+Your rights
+
+Users based in the European Economic Area (EEA) receive additional rights related to their personal data. You may:
+
+    request us to erase your personal data;
+    object to the processing of your personal data which is done on the basis of our legitimate interests (e. g. for marketing purposes);
+    request us to provide you with a copy of your personal data in a structured, commonly used and machine-readable format or to transmit (if technically feasible) your personal data to another controller (only where our processing is based on your consent and carried out by automated means);
+    restrict the processing of your personal data (when there is a legal basis for that);
+    withdraw your consent where processing is based on a consent you have previously provided;
+    exercise your rights by contacting us directly or, if all else fails, by lodging a complaint with a supervisory authority.
+
+CCPA
+
+Information for users in California
+
+If you are a California resident, you can implement your rights as provided in the California Consumer Privacy Act (CCPA) by contacting us at the email address which is listed on the page of this store. 
+As per definitions in the CCPA, please note that VTunnelVPN does not sell your personal information.
