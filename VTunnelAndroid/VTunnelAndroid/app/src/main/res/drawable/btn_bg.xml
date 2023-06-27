@@ -3,7 +3,7 @@
     <!-- This is the stroke you want to define -->
     <stroke android:width="5dp"
         android:color="@color/black"/>
-    <solid android:color="#38FFFFFF">
+    <solid android:color="#FFFBFB">
 
     </solid>
 

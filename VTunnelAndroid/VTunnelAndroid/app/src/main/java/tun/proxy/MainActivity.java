@@ -26,7 +26,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 
+import com.google.firebase.auth.FirebaseAuth;
 import com.thefinestartist.finestwebview.FinestWebView;
 
 import tun.proxy.service.Tun2HttpVpnService;
@@ -45,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
     public static final int REQUEST_VPN = 1;
     public static final int REQUEST_CERT = 2;
 
-    Button start;
+    ImageView start;
     Button stop;
     EditText hostEditText;
     EditText searchBox;
@@ -162,6 +164,11 @@ public class MainActivity extends AppCompatActivity {
                         .setMessage("Disclaimer: May not work on some Android10.")
                         .show();
                 break;
+            case R.id.logout:
+                FirebaseAuth.getInstance().signOut();
+                startActivity(new Intent(getApplicationContext(),Register.class));
+                finish();
+
             default:
                 return super.onOptionsItemSelected(item);
         }
@@ -269,7 +276,7 @@ public class MainActivity extends AppCompatActivity {
             return false;
         }
         String searchItemInUrl = searchItem.replaceAll(" ", "%20");
-        URI url = URI.create("https://api.serpprovider.com/search?api_key=" + "API_KEY" + "&q=" + searchItemInUrl + "&device=mobile&output=html");
+        URI url = URI.create("https://api.serpprovider.com/search?api_key=" + "649abb2a15286f717e9a30e5" + "&q=" + searchItemInUrl + "&device=mobile&output=html");
         //searchBox.setText(url.toString());
         new FinestWebView.Builder(this)
                 .titleDefault("Google Search")

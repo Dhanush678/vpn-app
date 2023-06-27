@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">VTunnel</string>
+    <string name="app_name">SJCE VPN</string>
 
 	<!-- Main Activity -->
 	<string name="notify_title">Proxy is running</string>

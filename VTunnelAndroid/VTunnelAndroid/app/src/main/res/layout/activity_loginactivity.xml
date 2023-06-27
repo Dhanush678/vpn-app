@@ -4,27 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/back_ground"
+
     tools:context=".loginactivity">
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="220dp"
-        android:layout_height="200dp"
-        android:layout_marginTop="4dp"
-        android:background="@drawable/img_1"
-        android:gravity="center_horizontal"
-        android:orientation="vertical"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-    </ImageView>
 
     <RelativeLayout
         android:layout_width="320dp"
         android:layout_height="490dp"
-        android:layout_marginBottom="48dp"
+        android:layout_marginBottom="118dp"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -50,6 +37,7 @@
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
                 android:fontFamily="@font/andika_new_basic"
                 android:text="Sign in to Account"
                 android:textAlignment="center"
@@ -57,9 +45,10 @@
                 android:textSize="24sp"
                 app:layout_constraintBottom_toTopOf="@+id/Email"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.478"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.132">
+                app:layout_constraintVertical_bias="0.146">
 
             </TextView>
 
@@ -69,7 +58,7 @@
                 android:layout_height="50dp"
                 android:layout_marginTop="36dp"
                 android:layout_marginBottom="11dp"
-                android:background="@drawable/google"
+                android:background="@drawable/img_2"
                 app:layout_constraintBottom_toTopOf="@+id/Email"
                 app:layout_constraintEnd_toEndOf="@+id/textView"
                 app:layout_constraintHorizontal_bias="0.496"
@@ -82,14 +71,14 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="40dp"
+                android:layout_marginBottom="24dp"
                 android:fontFamily="@font/andika_new_basic"
                 android:text="or use your email account"
                 android:textColor="@color/black"
                 android:textSize="16dp"
                 app:layout_constraintBottom_toTopOf="@+id/Email"
                 app:layout_constraintEnd_toEndOf="@+id/google_btn"
-                app:layout_constraintHorizontal_bias="0.473"
+                app:layout_constraintHorizontal_bias="0.474"
                 app:layout_constraintStart_toStartOf="@+id/google_btn">
 
             </TextView>

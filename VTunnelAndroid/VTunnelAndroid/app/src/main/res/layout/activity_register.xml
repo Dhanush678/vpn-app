@@ -4,13 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
+    android:background="@drawable/back_ground"
     tools:context=".Register">
 
 
     <RelativeLayout
         android:layout_width="320dp"
         android:layout_height="490dp"
-        android:layout_marginBottom="48dp"
+        android:layout_marginBottom="128dp"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -133,6 +135,7 @@
         android:background="@drawable/gradient"
         android:fontFamily="@font/aclonica"
         android:text="sign up"
+        android:textColor="@color/white"
         android:textSize="13sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -171,7 +174,7 @@
                 app:layout_constraintHorizontal_bias="0.503"
                 app:layout_constraintStart_toStartOf="@+id/fullName"
                 app:layout_constraintTop_toTopOf="parent"
-                android:text="Please do Regiter"
+                android:text="Please do Register"
                 android:textSize="25dp"
                 android:textColor="@color/black"
                 android:fontFamily="@font/aclonica"
